@@ -1,0 +1,68 @@
+/* Carousel base class */
+.carousel {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 8rem;
+  border: 2px solid black;
+}
+
+
+.carousel-item {
+  height: auto;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: #000000;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 3px solid #000000;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: #F80000;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #F80000;
+}
+
+
+.ypa-message {
+  color: #1c0d02;
+  font-size: 25px;
+  margin: 25px;
+  font-family: Crabmeal;
+}
+
+.ypa-author {
+  color: #1c0d02;
+  font-size: 20px;
+  margin: 25px;
+  font-family: HighJack-Bold;
+}
+
+.ypa-icon-carousel {
+  fill: #F80000;
+  height: 55px;
+  width: auto;
+}

@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/scss/bootstrap';
+
+
+/*
+ * Globals
+ */
+
+@font-face {
+  font-family: Infinite-Stroke;
+  src: url(assets/fonts/infinite/infinite-stroke.otf);
+}
+
+@font-face {
+  font-family: Infinite-Stroke-Bold;
+  src: url(assets/fonts/infinite/infinite-stroke-bolder.otf);
+}
+
+@font-face {
+  font-family: Infinite-Stroke-Bold-Cond;
+  src: url(assets/fonts/infinite/infinite-stroke-bolder-cond.otf);
+}
+
+@font-face {
+  font-family: HighJack-Bold;
+  src: url(assets/fonts/highjack/Highjack_Bold.otf);
+}
+
+@font-face {
+  font-family: Crabmeal;
+  src: url(assets/fonts/crabmeal/Crabmeal.otf);
+}
+
+@font-face {
+  font-family: RoadRage;
+  src: url(assets/fonts/road_rage/Road_Rage.otf);
+}
+
+
+
+/*
+ * Base structure
+ */
+
+html,
+
+body {
+  height: 100%;
+  // background-color: #636363;
+  background-color: #ffffff;
+  // background-image: url("assets/images/bg-love1.jpg");
+  // background-position: center;
+  // background-repeat: no-repeat;
+  background-size: cover; 
+}
+
